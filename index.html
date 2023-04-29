@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Sims 3 - Person Blog</title>
     <link rel="stylesheet" href="./main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -14,14 +18,87 @@
             <nav>   
                 <ul>
                     <li>
-                        <a href="#"> Sobre o blog</a>
+                        <a href="#about"> Sobre o blog</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="#create-an-account">Crie sua conta</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
+    <section id="about">
+        <div class="container">
+            <img class="blog-front" src="./images/ts3.png" alt="Capa The sims 3"/>
+            <div>
+                <h2>Sobre o blog</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex temporibus accusamus adipisci earum, voluptatibus dolores odit odio eaque nesciunt, voluptates ab animi labore soluta explicabo reiciendis vel quasi nemo doloribus.
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quam reiciendis eveniet iusto dolore, animi, molestiae recusandae obcaecati dolores exercitationem fuga soluta! Fugiat, officia! Sapiente expedita laborum vitae a! Totam!
+                </p>
+                <ul class="brands-list">
+                    <li><img src="./images/Logo EA.png" alt="EA"></li>
+                    <li><img src="./images/maxis logo.png" alt="Maxis"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="create-an-account"> 
+        <div class="container">
+            <h2>Crie sua conta</h2>
+            <div class="account-creation-methods">
+                <div>
+                    <h3>Criar conta</h3>
+                    <form>
+                        <input type="text" placeholder="Crie um nome de usuário" required/>
+                        <input type="email" placeholder="Seu email" required/>
+                        <input type="password" placeholder="Sua senha" required/>
+                        <input type="password" placeholder="Confirme sua senha" required/>
+                        <button type="submit">Criar minha conta</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nos acompanhe </h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Siga-nos no Instagram">
+                                <img src="./images/instagram.png" alt="Logo do Instagram" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no Facebook">
+                                <img src="./images/facebook.png" alt="Logo do Facebook" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Vsiite nosso canal no YouTube">
+                                <img src="./images/youtube.png" alt="Logo do Youtube" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no Pinterest">
+                                <img src="./images/logo pin.jpg" alt="Logo do Pinterest" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Conheça-nos</h3>
+                    <p>
+                        Rua The sims, nº 321, Vila simlish - Sunset Valley - SV
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Blog The Sims 3 - Todos os direitos reservados - 2023
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

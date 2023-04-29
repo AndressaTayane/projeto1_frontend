@@ -4,16 +4,25 @@
     box-sizing: border-box;
 }
 
+header, section h2, section h3 {
+    font-family: 'Lalezar', cursive;
+    font-weight: normal;
+}
+
+body, input, button {
+    font-family: 'Poppins', sans-serif;
+}
+
 header {
     padding: 16px;
-    background-color: rgb(15, 131, 247);
+    background-color: rgb(20, 99, 177);
     color: ivory;
 }
 
 header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 header nav li a{
@@ -27,8 +36,95 @@ header nav li a{
     margin: 0 auto;
 }
 
-header .container {
+header .container, section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.brands-list img {
+    height: 64px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: rgb(20, 99, 177);
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.blog-front {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+#create-an-account .container {
+    display: block;
+}
+
+.account-creation-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: rgb(20, 99, 177);
+    color: ivory;
+    border:  none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(57, 129, 202);
+}
+
+input:focus {
+    outline-color: rgb(20, 99, 177);
+}
+
+footer {
+    background-color: rgb(20, 99, 177);
+    color: ivory;
+    padding: 16px 0;
 }
